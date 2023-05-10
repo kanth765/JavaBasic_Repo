@@ -10,8 +10,8 @@ public class OutStreaDemo {
 		FileOutputStream fos = null;
 		try {
 			fos = new FileOutputStream("D:\\test.txt");
-			String msg = "hello i'm file out stream class";
-			fos.write(msg.getBytes());
+//			String msg = "hello i'm file out stream class";
+			fos.write(10);
 			System.out.println("success");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
