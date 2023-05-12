@@ -1,1 +1,4 @@
-welcome to file writer class demo
+10
+hello writer
+true
+20.0
