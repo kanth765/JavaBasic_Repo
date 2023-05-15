@@ -80,13 +80,13 @@ public class Account implements Serializable {
 	}
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
-		Account account = new Account(2023011324, "anil", 1000, 15, "anil12345");
-		System.out.println(account);
-		FileOutputStream fos = new FileOutputStream("account.ser");
-		ObjectOutputStream oos = new ObjectOutputStream(fos);
-		oos.writeObject(account);
-		oos.flush();
-		oos.close();
+//		Account account = new Account(2023011324, "anil", 1000, 15, "anil12345");
+//		System.out.println(account);
+//		FileOutputStream fos = new FileOutputStream("account.ser");
+//		ObjectOutputStream oos = new ObjectOutputStream(fos);
+//		oos.writeObject(account);
+//		oos.flush();
+//		oos.close();
 
 		FileInputStream fis = new FileInputStream("account.ser");
 		ObjectInputStream ois = new ObjectInputStream(fis);
