@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/sarik/Downloads/gson-2.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sarik/Downloads/jackson-annotations-2.15.0-rc2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sarik/Downloads/jackson-databind-2.15.0-rc3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sarik/Downloads/jackson-core-2.15.0-rc3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
