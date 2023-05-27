@@ -20,6 +20,16 @@ public class ArrayListDemo {
 		arrayList.add(2000.00);
 		System.out.println(arrayList);
 		System.out.println("**********************************");
+		int indexOf = arrayList.indexOf(null);
+		System.out.println(indexOf);
+		if ( indexOf>0) {
+			arrayList.add(indexOf, "welcome");
+//			arrayList.set(indexOf, "hello");
+			System.out.println(arrayList);
+		}else {
+			System.out.println("no value");
+		}
+		System.out.println("**********************************");
 
 		for (int counter = 0; counter < arrayList.size(); counter++) {
 			System.out.println(arrayList.get(counter));

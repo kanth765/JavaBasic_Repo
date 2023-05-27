@@ -12,6 +12,8 @@ public class VectorDemo {
 		vector.addElement("red");
 		vector.addElement("blue");
 		vector.addElement("black");
+		System.out.println(vector.get(0));
+		System.out.println(vector.get(3));
 //		if(vector.contains("yellow")) {
 //			System.out.println(vector);
 //		}else {
