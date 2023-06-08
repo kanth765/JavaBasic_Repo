@@ -93,13 +93,13 @@ public class ArrayListDemo2 {
 		employees.add(e3);
 		employees.add(e4);
 		System.out.println("**********************************");
-		Collections.sort(employees);
+//		Collections.sort(employees);
 
-		for (Employee employee : employees) {
-//			if(employee.getName().startsWith("a"))
-			if (employee.getSalary() >= 20000 && employee.getSalary() <= 30000)
-				System.out.println(employee);
-		}
+//		for (Employee employee : employees) {
+////			if(employee.getName().startsWith("a"))
+//			if (employee.getSalary() >= 20000 && employee.getSalary() <= 30000)
+//				System.out.println(employee);
+//		}
 	}
 
 }

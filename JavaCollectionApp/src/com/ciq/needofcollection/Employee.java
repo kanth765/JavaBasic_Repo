@@ -1,17 +1,17 @@
 package com.ciq.needofcollection;
 
-public class Employee implements Comparable<Employee> {
-
-	private int id;
+public class Employee {
+//	implements Comparable<Employee> 
+	private Integer id;
 	private String name;
-	private double salary;
+	private Double salary;
 
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
 
 	public Employee(int id, String name, double salary) {
-		super();
+//		if(id)
 		this.id = id;
 		this.name = name;
 		this.salary = salary;
@@ -46,10 +46,10 @@ public class Employee implements Comparable<Employee> {
 		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
 	}
 
-	@Override
-	public int compareTo(Employee o) {
-//		return this.getId() - o.getId();
-		return this.getName().compareTo(o.getName());
-	}
+//	@Override
+//	public int compareTo(Employee o) {
+////		return this.getId() - o.getId();
+//		return this.getName().compareTo(o.getName());
+//	}
 
 }

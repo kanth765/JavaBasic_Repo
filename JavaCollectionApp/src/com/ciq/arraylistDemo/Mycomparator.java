@@ -2,11 +2,13 @@ package com.ciq.arraylistDemo;
 
 import java.util.Comparator;
 
-public class Mycomparator implements Comparator<Integer> {
+import com.ciq.needofcollection.Employee;
+
+public class Mycomparator implements Comparator<Employee> {
 
 	@Override
-	public int compare(Integer o1, Integer o2) {
-		return o1.compareTo(o2);
+	public int compare(Employee o1, Employee o2) {
+		return o2.getId()-o1.getId();
 	}
 
 }
