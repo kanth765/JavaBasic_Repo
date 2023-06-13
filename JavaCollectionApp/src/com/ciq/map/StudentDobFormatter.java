@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class StudentDobFormatter {
 
-	private static final SimpleDateFormat SIMPLE_DATE_FORMATTER = new SimpleDateFormat("mm/dd/yyyy");
+	private static final SimpleDateFormat SIMPLE_DATE_FORMATTER = new SimpleDateFormat("dd-mm-yyyy");
 
 	public static String getDateMMDDYYY(Date date) {
 		return SIMPLE_DATE_FORMATTER.format(date);
